@@ -51,20 +51,3 @@ class Scraper
   end
 
 end
-
-#students = Scraper.scrape_index_page("fixtures/student-site/index.html")
-#johnny = Scraper.scrape_profile_page("fixtures/student-site/students/johnny-ramos.html")
-#binding.pry
-
-# name: student.css("h4.student-name").text,
-# location: student.css("div.card-text-container p.student-location").text,
-# profile_url: student.css("a").attribute("href").value
-
-# profile_quote: page.css("div.vitals-text-container div.profile-quote").text
-# bio: page.css("div.bio-block div.bio-content div.description-holder p").text
-
-
-### Do not know how to make these work ###
-# twitter: page.css("div.social-icon-container [href*='twitter']").attribute("href").value
-# linkedin: page.css("div.social-icon-container a:nth-of-type(2)").attribute("href").value
-# github: page.css("div.social-icon-container a:nth-of-type(3)").attribute("href").value
